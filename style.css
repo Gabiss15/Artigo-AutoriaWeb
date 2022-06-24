@@ -1,0 +1,88 @@
+@font-face{
+    font-family: 'open sans';
+    src: url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Nunito+Sans&family=Open+Sans:wght@600&display=swap')
+}
+body{
+    background-color: #fff;
+}
+
+.introduction{
+    font-family: 'open sans';
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h1{
+    font-family: 'open sans';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+}
+h3{
+    font-size: 20px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 28px;
+}
+h4{
+    color: #555;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 1px;
+}
+p{
+    font-family: 'open sans';
+    font-size: 18px;
+}
+b{
+    font-family: 'open sans';
+    font-weight: 600;
+    
+}
+h6{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1px;
+}
+
+small{
+    margin-top: -28px;
+}
+
+hr{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#red, li{
+    color: red;
+}
+
+main{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30%;
+    margin-left: 30%;
+    justify-content: space-evenly;
+}
+
+.line-vertical{
+   width: 12px;
+   height: 215px;
+   margin-top: 25px;
+   background-color: #A6130A;
+}
+
+#citacao{
+    font-size: 23px;
+    padding-left: 10px;
+}
